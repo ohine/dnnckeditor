@@ -406,6 +406,11 @@ namespace WatchersNET.CKEditor.Web
                     }
                 }
 
+                if (!string.IsNullOrEmpty(this.currentSettings.Config.ProtectedSource))
+                {
+                    this._settings["protectedSource"] = this.currentSettings.Config.ProtectedSource;
+                }
+
                 if (!string.IsNullOrEmpty(this._settings["extraPlugins"])
                     && this._settings["extraPlugins"].Contains("xmlstyles"))
                 {
