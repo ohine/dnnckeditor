@@ -76,19 +76,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="DotNetNuke">
-      <HintPath>..\..\..\bin7\DotNetNuke.dll</HintPath>
+      <HintPath>..\References\dnn7\DotNetNuke.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="DotNetNuke.Web">
-      <HintPath>..\..\..\bin7\DotNetNuke.Web.dll</HintPath>
+      <HintPath>..\References\dnn7\DotNetNuke.Web.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="DotNetNuke.Web.Client">
-      <HintPath>..\..\..\bin7\DotNetNuke.Web.Client.dll</HintPath>
+      <HintPath>..\References\dnn7\DotNetNuke.Web.Client.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="DotNetNuke.WebUtility">
-      <HintPath>..\..\..\bin7\DotNetNuke.WebUtility.dll</HintPath>
+      <HintPath>..\References\dnn7\DotNetNuke.WebUtility.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Microsoft.JScript" />
@@ -103,7 +103,7 @@
     <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml" />
     <Reference Include="Telerik.Web.UI">
-      <HintPath>..\..\..\bin7\Telerik.Web.UI.dll</HintPath>
+      <HintPath>..\References\dnn7\Telerik.Web.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
